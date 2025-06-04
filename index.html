@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectito</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            position: relative;
+            width: 100%;
+            height: 100px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-izquierda {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            height: 80px;
+        }
+        .logo-derecha {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            height: 80px;
+        }
+        .titulo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>proyecto de prueba de github</h1>
-    <h2>creo que esto me esta gustando</h2>
-    <h3>sera que funciona?</h3>
+    <div class="header">
+        <img src="logoeest1oscuro.png" alt="Logo Izquierdo" class="logo-izquierda">
+        <div class="titulo">Mi Proyectito</div>
+        <img src="programacionlogo.jpeg" alt="Logo Derecho" class="logo-derecha">
+    </div>
 </body>
 </html>
